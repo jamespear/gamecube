@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/jamespearce/gamecube/SDL/SDL2/src/hidapi/SDL_hidapi.c \
+  /Users/jamespearce/gamecube/SDL/SDL2/src/hidapi/../SDL_internal.h \
+  /Users/jamespearce/gamecube/SDL/SDL2/src/hidapi/../dynapi/SDL_dynapi.h \
+  /Users/jamespearce/gamecube/SDL/SDL2/src/hidapi/../dynapi/SDL_dynapi_overrides.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include-config-debug/SDL_config.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/SDL_platform.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/begin_code.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/close_code.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/SDL_assert.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/SDL_stdinc.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/SDL_log.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/SDL_loadso.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/SDL_error.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/SDL_hidapi.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/SDL_thread.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/SDL_atomic.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/SDL_mutex.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/SDL_timer.h \
+  /Users/jamespearce/gamecube/SDL/SDL2/src/hidapi/SDL_hidapi_c.h \
+  /Users/jamespearce/gamecube/SDL/SDL2/src/hidapi/../core/linux/SDL_udev.h \
+  /Users/jamespearce/gamecube/SDL/SDL2/src/hidapi/../core/linux/../../SDL_internal.h \
+  /Users/jamespearce/gamecube/SDL/SDL2/src/hidapi/mac/hid.c \
+  /Users/jamespearce/gamecube/SDL/SDL2/src/hidapi/mac/../../SDL_internal.h \
+  /Users/jamespearce/gamecube/SDL/Builds/SDL2/include/SDL_hints.h \
+  /Users/jamespearce/gamecube/SDL/SDL2/src/hidapi/mac/../hidapi/hidapi.h

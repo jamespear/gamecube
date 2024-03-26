@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+Target 'game' in project 'game'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'game'
+➜ Explicit dependency on target 'SDL2' in project 'game'
+Target 'SDL2' in project 'game'
+➜ Explicit dependency on target 'sdl_headers_copy' in project 'game'
+Target 'sdl_headers_copy' in project 'game' (no dependencies)
+Target 'ZERO_CHECK' in project 'game' (no dependencies)

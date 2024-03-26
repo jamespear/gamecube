@@ -1,0 +1,3 @@
+/Users/jamespearce/gamecube/SDL/cmake-build/CMakeFiles/game.dir
+/Users/jamespearce/gamecube/SDL/cmake-build/CMakeFiles/edit_cache.dir
+/Users/jamespearce/gamecube/SDL/cmake-build/CMakeFiles/rebuild_cache.dir
