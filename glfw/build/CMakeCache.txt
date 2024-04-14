@@ -352,6 +352,9 @@ game_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 game_SOURCE_DIR:STATIC=/Users/jamespearce/sp24/gamecube/glfw
 
+//The directory containing a CMake configuration file for glfw3.
+glfw3_DIR:PATH=/usr/local/lib/cmake/glfw3
+
 //Value Computed by CMake
 glfw_BINARY_DIR:STATIC=/Users/jamespearce/sp24/gamecube/glfw/build
 
@@ -545,7 +548,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

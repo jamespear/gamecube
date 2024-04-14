@@ -69,10 +69,38 @@ include CMakeFiles/game.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/game.dir/flags.make
 
+CMakeFiles/game.dir/src/controller.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/controller.cpp.o: /Users/jamespearce/sp24/gamecube/glfw/src/controller.cpp
+CMakeFiles/game.dir/src/controller.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jamespearce/sp24/gamecube/glfw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/controller.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/controller.cpp.o -MF CMakeFiles/game.dir/src/controller.cpp.o.d -o CMakeFiles/game.dir/src/controller.cpp.o -c /Users/jamespearce/sp24/gamecube/glfw/src/controller.cpp
+
+CMakeFiles/game.dir/src/controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/controller.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jamespearce/sp24/gamecube/glfw/src/controller.cpp > CMakeFiles/game.dir/src/controller.cpp.i
+
+CMakeFiles/game.dir/src/controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/controller.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jamespearce/sp24/gamecube/glfw/src/controller.cpp -o CMakeFiles/game.dir/src/controller.cpp.s
+
+CMakeFiles/game.dir/src/game.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/game.cpp.o: /Users/jamespearce/sp24/gamecube/glfw/src/game.cpp
+CMakeFiles/game.dir/src/game.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jamespearce/sp24/gamecube/glfw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/game.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/game.cpp.o -MF CMakeFiles/game.dir/src/game.cpp.o.d -o CMakeFiles/game.dir/src/game.cpp.o -c /Users/jamespearce/sp24/gamecube/glfw/src/game.cpp
+
+CMakeFiles/game.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/game.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jamespearce/sp24/gamecube/glfw/src/game.cpp > CMakeFiles/game.dir/src/game.cpp.i
+
+CMakeFiles/game.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/game.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jamespearce/sp24/gamecube/glfw/src/game.cpp -o CMakeFiles/game.dir/src/game.cpp.s
+
 CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/main.cpp.o: /Users/jamespearce/sp24/gamecube/glfw/src/main.cpp
 CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jamespearce/sp24/gamecube/glfw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jamespearce/sp24/gamecube/glfw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/main.cpp.o -MF CMakeFiles/game.dir/src/main.cpp.o.d -o CMakeFiles/game.dir/src/main.cpp.o -c /Users/jamespearce/sp24/gamecube/glfw/src/main.cpp
 
 CMakeFiles/game.dir/src/main.cpp.i: cmake_force
@@ -86,7 +114,7 @@ CMakeFiles/game.dir/src/main.cpp.s: cmake_force
 CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.o: /Users/jamespearce/sp24/gamecube/glfw/JUCE/modules/juce_core/juce_core.mm
 CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jamespearce/sp24/gamecube/glfw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jamespearce/sp24/gamecube/glfw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.o -MF CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.o.d -o CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.o -c /Users/jamespearce/sp24/gamecube/glfw/JUCE/modules/juce_core/juce_core.mm
 
 CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.i: cmake_force
@@ -100,7 +128,7 @@ CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.s: cmake_force
 CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.o: /Users/jamespearce/sp24/gamecube/glfw/JUCE/modules/juce_osc/juce_osc.cpp
 CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jamespearce/sp24/gamecube/glfw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jamespearce/sp24/gamecube/glfw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.o -MF CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.o.d -o CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.o -c /Users/jamespearce/sp24/gamecube/glfw/JUCE/modules/juce_osc/juce_osc.cpp
 
 CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.i: cmake_force
@@ -114,7 +142,7 @@ CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.s: cmake_force
 CMakeFiles/game.dir/JUCE/modules/juce_events/juce_events.mm.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/JUCE/modules/juce_events/juce_events.mm.o: /Users/jamespearce/sp24/gamecube/glfw/JUCE/modules/juce_events/juce_events.mm
 CMakeFiles/game.dir/JUCE/modules/juce_events/juce_events.mm.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jamespearce/sp24/gamecube/glfw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/JUCE/modules/juce_events/juce_events.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jamespearce/sp24/gamecube/glfw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/JUCE/modules/juce_events/juce_events.mm.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/JUCE/modules/juce_events/juce_events.mm.o -MF CMakeFiles/game.dir/JUCE/modules/juce_events/juce_events.mm.o.d -o CMakeFiles/game.dir/JUCE/modules/juce_events/juce_events.mm.o -c /Users/jamespearce/sp24/gamecube/glfw/JUCE/modules/juce_events/juce_events.mm
 
 CMakeFiles/game.dir/JUCE/modules/juce_events/juce_events.mm.i: cmake_force
@@ -127,6 +155,8 @@ CMakeFiles/game.dir/JUCE/modules/juce_events/juce_events.mm.s: cmake_force
 
 # Object files for target game
 game_OBJECTS = \
+"CMakeFiles/game.dir/src/controller.cpp.o" \
+"CMakeFiles/game.dir/src/game.cpp.o" \
 "CMakeFiles/game.dir/src/main.cpp.o" \
 "CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.o" \
 "CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.o" \
@@ -135,14 +165,16 @@ game_OBJECTS = \
 # External object files for target game
 game_EXTERNAL_OBJECTS =
 
+game: CMakeFiles/game.dir/src/controller.cpp.o
+game: CMakeFiles/game.dir/src/game.cpp.o
 game: CMakeFiles/game.dir/src/main.cpp.o
 game: CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.o
 game: CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.o
 game: CMakeFiles/game.dir/JUCE/modules/juce_events/juce_events.mm.o
 game: CMakeFiles/game.dir/build.make
-game: glfw-3.4/src/libglfw3.a
+game: /usr/local/lib/libglfw.3.4.dylib
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jamespearce/sp24/gamecube/glfw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jamespearce/sp24/gamecube/glfw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

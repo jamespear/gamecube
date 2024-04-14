@@ -23,19 +23,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/VerifyGlobs.cmake"
   "CMakeFiles/cmake.verify_globs"
   "JUCE/tools/JUCEToolsExport.cmake"
-  "/Users/jamespearce/sp24/gamecube/glfw/glfw-3.4/CMake/cmake_uninstall.cmake.in"
-  "/Users/jamespearce/sp24/gamecube/glfw/glfw-3.4/CMake/glfw3.pc.in"
-  "/Users/jamespearce/sp24/gamecube/glfw/glfw-3.4/CMake/glfw3Config.cmake.in"
-  "/Users/jamespearce/sp24/gamecube/glfw/glfw-3.4/CMakeLists.txt"
-  "/Users/jamespearce/sp24/gamecube/glfw/glfw-3.4/docs/CMakeLists.txt"
-  "/Users/jamespearce/sp24/gamecube/glfw/glfw-3.4/docs/Doxyfile.in"
-  "/Users/jamespearce/sp24/gamecube/glfw/glfw-3.4/src/CMakeLists.txt"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/BasicConfigVersion-ExactVersion.cmake.in"
-  "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/CMakeDependentOption.cmake"
+  "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/CMakeFindDependencyMacro.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/CMakeInitializeConfigs.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/CMakeLanguageInformation.cmake"
@@ -50,11 +43,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/Compiler/Clang.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/Compiler/GNU.cmake"
-  "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/FindDoxygen.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/FindPackageMessage.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/FindThreads.cmake"
-  "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/GNUInstallDirs.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
@@ -65,6 +56,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/Platform/Darwin.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/Platform/UnixPaths.cmake"
   "/usr/local/Cellar/cmake/3.28.2/share/cmake/Modules/WriteBasicConfigVersionFile.cmake"
+  "/usr/local/lib/cmake/glfw3/glfw3Config.cmake"
+  "/usr/local/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
+  "/usr/local/lib/cmake/glfw3/glfw3Targets-release.cmake"
+  "/usr/local/lib/cmake/glfw3/glfw3Targets.cmake"
   )
 
 # The corresponding makefile is:
@@ -76,14 +71,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "glfw-3.4/src/glfw3Config.cmake"
-  "glfw-3.4/src/glfw3ConfigVersion.cmake"
-  "glfw-3.4/cmake_uninstall.cmake"
-  "glfw-3.4/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "glfw-3.4/src/glfw3.pc"
-  "glfw-3.4/src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "glfw-3.4/docs/Doxyfile"
-  "glfw-3.4/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "JUCE/JUCEConfigVersion.cmake"
   "JUCE/JUCEConfig.cmake"
   "JUCE/JUCEExportConfig.cmake"
@@ -96,8 +83,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/game.dir/DependInfo.cmake"
-  "glfw-3.4/CMakeFiles/uninstall.dir/DependInfo.cmake"
-  "glfw-3.4/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "glfw-3.4/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
-  "glfw-3.4/docs/CMakeFiles/docs.dir/DependInfo.cmake"
   )

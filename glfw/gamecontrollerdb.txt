@@ -1,0 +1,18 @@
+Gamecube
+Button A
+Button B
+Button X
+Button Y
+Button -
+Button +
+Button Pause
+Button Home
+D-Pad L
+D-Pad R
+D-Pad U
+D-Pad D
+Trigger R
+Trigger L
+Trigger ZL
+Control Stick
+C-Stick

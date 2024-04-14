@@ -39,7 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/jamespearce/sp24/gamecube/glfw/build/glfw-3.4/cmake_install.cmake")
   include("/Users/jamespearce/sp24/gamecube/glfw/build/JUCE/cmake_install.cmake")
 
 endif()

@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/jamespearce/sp24/gamecube/glfw/JUCE/modules/juce_core/juce_core.mm" "CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.o" "gcc" "CMakeFiles/game.dir/JUCE/modules/juce_core/juce_core.mm.o.d"
   "/Users/jamespearce/sp24/gamecube/glfw/JUCE/modules/juce_events/juce_events.mm" "CMakeFiles/game.dir/JUCE/modules/juce_events/juce_events.mm.o" "gcc" "CMakeFiles/game.dir/JUCE/modules/juce_events/juce_events.mm.o.d"
   "/Users/jamespearce/sp24/gamecube/glfw/JUCE/modules/juce_osc/juce_osc.cpp" "CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.o" "gcc" "CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.o.d"
+  "/Users/jamespearce/sp24/gamecube/glfw/src/controller.cpp" "CMakeFiles/game.dir/src/controller.cpp.o" "gcc" "CMakeFiles/game.dir/src/controller.cpp.o.d"
+  "/Users/jamespearce/sp24/gamecube/glfw/src/game.cpp" "CMakeFiles/game.dir/src/game.cpp.o" "gcc" "CMakeFiles/game.dir/src/game.cpp.o.d"
   "/Users/jamespearce/sp24/gamecube/glfw/src/main.cpp" "CMakeFiles/game.dir/src/main.cpp.o" "gcc" "CMakeFiles/game.dir/src/main.cpp.o.d"
   )
 
