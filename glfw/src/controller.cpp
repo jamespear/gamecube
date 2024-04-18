@@ -7,7 +7,9 @@ Controller::Controller(int jid)
        set_mapping();
    }
 
-Controller::~Controller() {}
+Controller::~Controller() {
+    mapping.clear();
+}
 
 void Controller::set_mapping() {
     // FILE *fp = fopen("../gamecontrollerdb.txt", "r");
@@ -35,6 +37,6 @@ void Controller::set_mapping() {
 }
 
 bool Controller::button_pressed(std::string button) {
-    return glfwGetJoystickButtons(jid, num_buttons)
+    return glfwGetJoystickButtons(jid, &n)
     [mapping[button]];
 }

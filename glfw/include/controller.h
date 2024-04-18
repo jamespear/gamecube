@@ -15,5 +15,5 @@ public:
   std::string name;
   std::map<std::string, int> mapping;
   int file_chars = 172; //bit of a kludge
-  int *num_buttons;
+  int n;
 };

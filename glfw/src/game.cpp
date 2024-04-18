@@ -10,21 +10,20 @@ Game::~Game() { glfwDestroyWindow(window); }
 void Game::setup() {
   glfwInit();
   window = glfwCreateWindow(640, 480, "gamecube", NULL, NULL);
-  glfwSetJoystickCallback(joystick_init);
   for (int i = 0; i < 16; i++) {
-      if (glfwJoystickPresent(i)) {
-          controllers.push_back(Controller(i));
-      }
+    if (glfwJoystickPresent(i)) {
+      controllers.push_back(Controller(i));
+    }
   }
   for (int y = 0; y < 100; y++) {
-      for (int x = 0; x < 100; x++) {
-          red[y * 100 * 3 + x * 3] = 0xff;
-          red[y * 100 * 3 + x * 3 + 1] = 0x00;
-          red[y * 100 * 3 + x * 3 + 2] = 0x00;
-          blue[y * 100 * 3 + x * 3] = 0x00;
-          blue[y * 100 * 3 + x * 3 + 1] = 0x00;
-          blue[y * 100 * 3 + x * 3 + 2] = 0xff;
-      }
+    for (int x = 0; x < 100; x++) {
+      red[y * 100 * 3 + x * 3] = 0xff;
+      red[y * 100 * 3 + x * 3 + 1] = 0x00;
+      red[y * 100 * 3 + x * 3 + 2] = 0x00;
+      blue[y * 100 * 3 + x * 3] = 0x00;
+      blue[y * 100 * 3 + x * 3 + 1] = 0x00;
+      blue[y * 100 * 3 + x * 3 + 2] = 0xff;
+    }
   }
 }
 
@@ -34,26 +33,16 @@ void Game::loop() {
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
       return;
     }
-    if (controllers[0].button_pressed("a")) {
-        printf("%s", "bruh");
-        //glDrawPixels(100, 100, GL_RGB, GL_UNSIGNED_BYTE, red);
-    }
-    if (controllers[0].button_pressed("b")) {
-        printf("%s", "bruh2");
-        //glDrawPixels(100, 100, GL_RGB, GL_UNSIGNED_BYTE, blue);
+    if (glfwJoystickPresent(0)) {
+      if (controllers[0].button_pressed("a")) {
+        glDrawPixels(100, 100, GL_RGB, GL_UNSIGNED_BYTE, red);
+      } else if (controllers[0].button_pressed("b")) {
+        glDrawPixels(100, 100, GL_RGB, GL_UNSIGNED_BYTE, blue);
+      } else {
+        glClear(GL_COLOR_BUFFER_BIT);
+      }
     }
     glfwPollEvents();
-    //glDrawPixels(100, 100, GL_RGB, GL_UNSIGNED_BYTE, red);
-    //glfwSwapBuffers(window);
-    //glfwWaitEvents();
+    glfwSwapBuffers(window);
   }
-}
-
-void Game::joystick_init(int jid, int event) {
-    if (event == GLFW_CONNECTED) {
-       is_connected_controller[jid] = true;
-       printf("Controller %s connected!", glfwGetJoystickName(jid));
-    } else {
-        printf("Controller %s disconnected", glfwGetJoystickName(jid));
-    }
 }

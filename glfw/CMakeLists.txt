@@ -4,9 +4,16 @@ project(game)
 
 include_directories(include)
 
+#-------------------------------------------------------------------------------
+# GLFW
+#-------------------------------------------------------------------------------
+
 find_package(glfw3)
 include_directories(/usr/local/include/GLFW)
 
+#-------------------------------------------------------------------------------
+# JUCE
+#-------------------------------------------------------------------------------
 
 add_compile_definitions(JUCE_SILENCE_XCODE_15_LINKER_WARNING=1)
 add_subdirectory(JUCE)
