@@ -1,6 +1,7 @@
 #include "game.h"
+#include "file.h"
 
-Game::Game() {
+Game::Game(char const *filename) : filename(filename) {
   this->setup();
   this->loop();
 }
@@ -12,19 +13,13 @@ void Game::setup() {
   window = glfwCreateWindow(640, 480, "gamecube", NULL, NULL);
   for (int i = 0; i < 16; i++) {
     if (glfwJoystickPresent(i)) {
-      controllers.push_back(Controller(i));
+      File f(this->filename);
+      controllers.push_back(Controller(i, &f));
     }
   }
-  for (int y = 0; y < 100; y++) {
-    for (int x = 0; x < 100; x++) {
-      red[y * 100 * 3 + x * 3] = 0xff;
-      red[y * 100 * 3 + x * 3 + 1] = 0x00;
-      red[y * 100 * 3 + x * 3 + 2] = 0x00;
-      blue[y * 100 * 3 + x * 3] = 0x00;
-      blue[y * 100 * 3 + x * 3 + 1] = 0x00;
-      blue[y * 100 * 3 + x * 3 + 2] = 0xff;
-    }
-  }
+  // actions = Actions(controllers);
+  // actions.controller_actions(0);
+  // Actions actions;
 }
 
 void Game::loop() {
@@ -32,15 +27,6 @@ void Game::loop() {
   while (!glfwWindowShouldClose(window)) {
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
       return;
-    }
-    if (glfwJoystickPresent(0)) {
-      if (controllers[0].button_pressed("a")) {
-        glDrawPixels(100, 100, GL_RGB, GL_UNSIGNED_BYTE, red);
-      } else if (controllers[0].button_pressed("b")) {
-        glDrawPixels(100, 100, GL_RGB, GL_UNSIGNED_BYTE, blue);
-      } else {
-        glClear(GL_COLOR_BUFFER_BIT);
-      }
     }
     glfwPollEvents();
     glfwSwapBuffers(window);

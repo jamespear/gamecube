@@ -11,8 +11,8 @@ D-Pad L
 D-Pad R
 D-Pad U
 D-Pad D
-Trigger R
-Trigger L
+Trigger TR
+Trigger TL
 Trigger ZL
 Control Stick
 C-Stick

@@ -1,7 +1,9 @@
+#include "actions.h"
 #include "controller.h"
+
 class Game {
 public:
-  Game();
+  Game(const char *filename);
   ~Game();
   void setup();
   void loop();
@@ -12,6 +14,8 @@ public:
   int num_controllers;
   std::vector<GLFWgamepadstate> gamepad;
   std::vector<Controller> controllers;
-  char* red = new char[100*100*3];
-  char* blue = new char[100*100*3];
+
+  const char *filename;
+
+  Actions action;
 };

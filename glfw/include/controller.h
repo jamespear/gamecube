@@ -1,19 +1,23 @@
+#pragma once
+#include "file.h"
+#include "glfw3.h"
 #include <map>
 #include <vector>
-#include <string>
-#include "glfw3.h"
 
 class Controller {
 public:
-  Controller(int jid);
+  Controller(int jid, File* f);
   ~Controller();
 
   void set_mapping();
-  bool button_pressed(std::string button);
+  bool button_pressed(const char *button);
 
   int jid;
-  std::string name;
-  std::map<std::string, int> mapping;
-  int file_chars = 172; //bit of a kludge
+  File* file;
+
+  const char *glfw_name;
+  const char *mapping_name;
+  std::map<const char *, int> mapping;
+  long file_chars;
   int n;
 };
