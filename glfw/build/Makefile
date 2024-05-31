@@ -247,6 +247,30 @@ JUCE/modules/juce_osc/juce_osc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/JUCE/modules/juce_osc/juce_osc.cpp.s
 .PHONY : JUCE/modules/juce_osc/juce_osc.cpp.s
 
+src/actions.o: src/actions.cpp.o
+.PHONY : src/actions.o
+
+# target to build an object file
+src/actions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/actions.cpp.o
+.PHONY : src/actions.cpp.o
+
+src/actions.i: src/actions.cpp.i
+.PHONY : src/actions.i
+
+# target to preprocess a source file
+src/actions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/actions.cpp.i
+.PHONY : src/actions.cpp.i
+
+src/actions.s: src/actions.cpp.s
+.PHONY : src/actions.s
+
+# target to generate assembly for a file
+src/actions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/actions.cpp.s
+.PHONY : src/actions.cpp.s
+
 src/controller.o: src/controller.cpp.o
 .PHONY : src/controller.o
 
@@ -270,6 +294,30 @@ src/controller.s: src/controller.cpp.s
 src/controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/controller.cpp.s
 .PHONY : src/controller.cpp.s
+
+src/file.o: src/file.cpp.o
+.PHONY : src/file.o
+
+# target to build an object file
+src/file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/file.cpp.o
+.PHONY : src/file.cpp.o
+
+src/file.i: src/file.cpp.i
+.PHONY : src/file.i
+
+# target to preprocess a source file
+src/file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/file.cpp.i
+.PHONY : src/file.cpp.i
+
+src/file.s: src/file.cpp.s
+.PHONY : src/file.s
+
+# target to generate assembly for a file
+src/file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/file.cpp.s
+.PHONY : src/file.cpp.s
 
 src/game.o: src/game.cpp.o
 .PHONY : src/game.o
@@ -319,6 +367,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/rasterize.o: src/rasterize.cpp.o
+.PHONY : src/rasterize.o
+
+# target to build an object file
+src/rasterize.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/rasterize.cpp.o
+.PHONY : src/rasterize.cpp.o
+
+src/rasterize.i: src/rasterize.cpp.i
+.PHONY : src/rasterize.i
+
+# target to preprocess a source file
+src/rasterize.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/rasterize.cpp.i
+.PHONY : src/rasterize.cpp.i
+
+src/rasterize.s: src/rasterize.cpp.s
+.PHONY : src/rasterize.s
+
+# target to generate assembly for a file
+src/rasterize.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/rasterize.cpp.s
+.PHONY : src/rasterize.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -341,15 +413,24 @@ help:
 	@echo "... JUCE/modules/juce_osc/juce_osc.o"
 	@echo "... JUCE/modules/juce_osc/juce_osc.i"
 	@echo "... JUCE/modules/juce_osc/juce_osc.s"
+	@echo "... src/actions.o"
+	@echo "... src/actions.i"
+	@echo "... src/actions.s"
 	@echo "... src/controller.o"
 	@echo "... src/controller.i"
 	@echo "... src/controller.s"
+	@echo "... src/file.o"
+	@echo "... src/file.i"
+	@echo "... src/file.s"
 	@echo "... src/game.o"
 	@echo "... src/game.i"
 	@echo "... src/game.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/rasterize.o"
+	@echo "... src/rasterize.i"
+	@echo "... src/rasterize.s"
 .PHONY : help
 
 
