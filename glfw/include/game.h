@@ -17,5 +17,8 @@ public:
 
   const char *filename;
 
-  Actions action;
+  File *file;
+  Actions actions;
+  char *red = new char[100 * 100 * 3];
+  char *blue = new char[100 * 100 * 3];
 };

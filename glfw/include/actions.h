@@ -9,7 +9,7 @@ public:
 
   void controller_actions(int jid);
 
-  char *red = new char[100 * 100 * 3];
-  char *blue = new char[100 * 100 * 3];
+  //char *red = new char[100 * 100 * 3];
+  //char *blue = new char[100 * 100 * 3];
   std::vector<Controller> controllers;
 };

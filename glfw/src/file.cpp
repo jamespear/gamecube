@@ -19,15 +19,15 @@ void File::get_file_size() {
     } else {
         fseek(fp, 0, SEEK_END);
         this->file_size = ftell(fp);
+        fclose(fp);
     }
-    fclose(fp);
 }
 
 void File::parse_mapping() {
     FILE *fp = fopen(this->filename, "r");
-    char buffer[this->file_size];
+    char *buffer = new char[this->file_size];
     while (!feof(fp)) {
-        fread(buffer, sizeof(buffer), 1, fp);
+        fread(buffer, this->file_size, 1, fp);
     }
     fclose(fp);
     this->file_contents = buffer;

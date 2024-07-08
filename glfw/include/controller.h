@@ -3,6 +3,7 @@
 #include "glfw3.h"
 #include <map>
 #include <vector>
+#include <string>
 
 class Controller {
 public:
@@ -10,14 +11,14 @@ public:
   ~Controller();
 
   void set_mapping();
-  bool button_pressed(const char *button);
+  bool button_pressed(int button);
 
   int jid;
   File* file;
 
-  const char *glfw_name;
-  const char *mapping_name;
-  std::map<const char *, int> mapping;
+  GLFWgamepadstate state;
+  std::string glfw_guid;
+  std::string glfw_name;
   long file_chars;
   int n;
 };

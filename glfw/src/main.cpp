@@ -1,4 +1,4 @@
-#define FILENAME "../mappings.txt"
+#define FILENAME "../gamecubemapping.txt"
 
 #include "game.h"
 #include "juce_core/juce_core.h"
